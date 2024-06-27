@@ -1,0 +1,96 @@
+/* Write CSS here */
+.stopwatch-bg-con {
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  font-family: 'Roboto';
+  color: #333333;
+}
+
+.stopwatch-heading-card-con {
+  text-align: center;
+  width: 100%;
+}
+
+.stopwatch-heading {
+  font-size: 33px;
+  text-align: center;
+}
+
+.stopwatch-card-con {
+  height: 280px;
+  width: 90%;
+  background-color: #fff;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.stopwatch-img-name-con {
+  display: flex;
+  align-items: center;
+}
+
+.stopwatch-img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.stopwatch-card-heading {
+  font-size: 28px;
+}
+
+.stopwatch-timer {
+  font-size: 35px;
+}
+
+.stopwatch-btn-con {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  border: 0;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.btn-start {
+  background-color: #1db05f;
+}
+
+.btn-stop {
+  background-color: #ef0d36;
+}
+
+.btn-reset {
+  background-color: #eaa800;
+}
+
+@media (min-width: 768px) {
+  .stopwatch-bg-con {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    background-size: 100% 100%;
+    align-items: flex-start;
+    padding: 50px;
+  }
+
+  .stopwatch-card-con {
+    width: 400px;
+  }
+}
